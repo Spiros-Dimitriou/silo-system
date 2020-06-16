@@ -4,6 +4,8 @@ System of 4 silos filling with liquid and processing it. Control is done through
 Paradigm taken from F. Basile, et al. “On the Implementation of Industrial Automation Systems Based on PLC”, IEEE Trans. on Automation Science and Engineering, vol. 10, no. 4, pp.990-1003, Oct 2013.
 Assignment done in class 22G902: Analysis & Design of Software Systems by Kleanthis Thramboulidis
 
+![alt text](https://github.com/Spiros-Dimitriou/silo-system/blob/master/liqueur-plant.png?raw=true)
+
 The system can be described as 4 independent silos (s1-s4), each one with different processing inside it, one shared pipe and shared power source for the heavy machinery (mixers).
 There are 2 types of liqueurs that can come out of this system. One is type A through silo 1 and 4. The other one is type B through silo 2 and 3.
 Therefore two processes run concurrently at the system. One for liqueur type A and one for liqueur type B.
